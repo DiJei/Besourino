@@ -1,0 +1,126 @@
+{
+  "tabs": [
+    {
+      "id":"Movements",
+      "rgba": [0,1,0,1],
+      "blocks":[
+        {
+          "name":"forward",
+          "id": "1",
+          "source":"images/actuators/forward_brick.png"
+        },
+        {
+          "name":"reverse",
+          "id": "2",
+          "source":"images/actuators/reverse_brick.png"
+        },
+        {
+          "name":"turn_right",
+          "id": "3",
+          "source":"images/actuators/right_brick.png"
+        },
+        {
+          "name":"turn_left",
+           "id": "4",
+          "source":"images/actuators/left_brick.png"
+        },
+        {
+          "name":"claw_open",
+           "id": "5",
+          "source":"images/actuators/claw_open_brick.png"
+        },
+        {
+          "name":"claw_claw",
+           "id": "6",
+          "source":"images/actuators/claw_close_brick.png"
+        }
+      ]
+    },
+    {
+      "id":"Functions",
+      "rgba": [0,0,1,1],
+      "blocks":[
+        {
+         "name":"play_brick",
+         "id": "0",
+         "source":"images/functions/play_brick.png"
+       },
+       {
+        "name":"builder_macro_brick",
+        "id": "1",
+        "source":"images/functions/macro_brick.png"
+      },
+      {
+       "name":"actor_macro_brick",
+       "id": "2",
+       "source":"images/functions/macro_actor_brick.png"
+      }
+      ]
+    },
+    {
+      "id": "Sensors",
+      "rgba": [1,1,0,1],
+      "blocks":
+      [
+        {
+         "name":"ultrasonic_brick",
+         "id": "1",
+         "source":"images/sensors/ultrasonic_brick.png"
+       },
+       {
+        "name":"infrared_brick",
+        "id": "2",
+        "source":"images/sensors/infrarred_brick.png"
+       }
+      ]
+    },
+    {
+      "id": "Audio",
+      "rgba": [0.5,0,0.5,1],
+      "blocks":
+      [
+
+       {
+        "name":"no_audio_brick",
+        "id": "1",
+        "source":"images/audio/no_audio_brick.png"
+       },
+       {
+        "name":"c_audio_brick",
+        "id": "2",
+        "source":"images/audio/c_audio_brick.png"
+       },
+       {
+        "name":"d_audio_brick",
+        "id": "3",
+        "source":"images/audio/d_audio_brick.png"
+       },
+       {
+        "name":"e_audio_brick",
+        "id": "4",
+        "source":"images/audio/e_audio_brick.png"
+       },
+       {
+        "name":"f_audio_brick",
+        "id": "5",
+        "source":"images/audio/f_audio_brick.png"
+       },
+       {
+        "name":"g_audio_brick",
+        "id": "6",
+        "source":"images/audio/g_audio_brick.png"
+       },
+       {
+        "name":"a_audio_brick",
+        "id": "7",
+        "source":"images/audio/a_audio_brick.png"
+       },
+       {
+        "name":"b_audio_brick",
+        "id": "8",
+        "source":"images/audio/b_audio_brick.png"
+      }
+    ]
+    }
+  ]
+}

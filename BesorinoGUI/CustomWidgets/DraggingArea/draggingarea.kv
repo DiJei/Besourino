@@ -1,0 +1,14 @@
+# File name: draggingarea.kv
+#:import draggingblock draggingblock
+#:kivy 1.9.0
+
+<DragBlock>:
+	size_hint: None,0.25
+	width: self.height
+
+<DragPlayButton>:
+	id: play_button
+	size_hint: None,0.25
+	width: self.height
+
+<DrawingArea@RelativeLayout>:

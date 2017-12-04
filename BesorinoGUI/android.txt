@@ -1,0 +1,3 @@
+title=Besorino
+author=Daniel Jorge
+orientation=landscape

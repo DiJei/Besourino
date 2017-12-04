@@ -1,0 +1,33 @@
+# File name: maingui.kv
+#:kivy 1.9.0
+<MainGUI>:
+	orientation: 'vertical'
+	#RelativeLayout:
+	#	size_hint: 1,0.05
+	#	canvas.before:
+	#		Color:
+	#			rgb: 0.8,0.8,0.8
+	#		Rectangle:
+	#			size: self.size
+	#	MenuBar:
+	#		id: _menu_bar
+
+	RelativeLayout:
+		canvas.before:
+			Color:
+				rgb: 1,1,1
+			Rectangle:
+				size: self.size
+				source: 'images/gui_elements/blueprint.png'
+		size_hint: 1,0.95
+
+
+		BlocksMenu:
+			size_hint: 1,0.25
+			id: _blocks_menu
+			drawing_area: _drawing_area
+
+		DrawingArea:
+			size_hint: 1,0.75
+			id: _drawing_area
+			block_menu: _blocks_menu

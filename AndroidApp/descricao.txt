@@ -1,0 +1,4 @@
+Aplicativo para controlar o robô aberto para ensino de programação e
+robótica Besourino. Projeto criado no ano de 2017 pelo grupo Hardware Livre USP.
+
+Para informações do projeto confira o link: http://hardwarelivreusp.org/projetos/cubeto/
